@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the component 1`] = `
+<div
+  className="App"
+>
+  <button
+    id="testbtn"
+    onClick={[Function]}
+  >
+    Test
+  </button>
+  <AddToDo
+    addToDoParent={[Function]}
+  />
+  <div>
+    Todo's : 
+    5
+  </div>
+  <ComponentEnhancer(undefined)
+    activeDotStyle={Object {}}
+    className="slider"
+    disabled={false}
+    dotStyle={Object {}}
+    dots={false}
+    handle={[Function]}
+    handleStyle={
+      Array [
+        Object {},
+      ]
+    }
+    included={true}
+    marks={Object {}}
+    max={100}
+    min={0}
+    onAfterChange={[Function]}
+    onBeforeChange={[Function]}
+    onChange={[Function]}
+    prefixCls="rc-slider"
+    railStyle={Object {}}
+    reverse={false}
+    step={1}
+    style={
+      Object {
+        "margin": "0 auto",
+        "width": "25%",
+      }
+    }
+    trackStyle={
+      Array [
+        Object {},
+      ]
+    }
+    value={5}
+    vertical={false}
+  />
+  <ToDoList
+    deleteFromParent={[Function]}
+    items={Array []}
+  />
+</div>
+`;
